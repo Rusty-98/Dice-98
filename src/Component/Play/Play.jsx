@@ -86,8 +86,8 @@ const Play = () => {
                     ))}
                 </div>
             </div>
-            <div className=" mt-6">
-                <img src={`../../dice_${currDice}.png`} alt="" className="m-auto h-80 cursor-pointer rounded-md"
+            <div className="">
+                <img src={`../../dice_${currDice}.png`} alt="" className="m-auto h-72 cursor-pointer rounded-md"
                     onClick={diceRoll}
                 />
                 <h1 className="text-center text-3xl capitalize">

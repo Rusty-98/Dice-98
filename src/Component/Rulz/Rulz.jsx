@@ -2,7 +2,7 @@ import './Rulz.css';
 
 const Rulz = ({ showRule }) => {
   return (
-    <div className={`rules-container ${showRule ? 'active' : ''} w-full bg-purple-800 flex flex-col items-center justify-center h-1/2 border-t-4 border-black`}>
+    <div className={`rules-container ${showRule ? 'active' : ''} w-full bg-purple-800 flex flex-col items-center justify-center h-3/5 border-t-4 border-black`}>
       <div onClick={
         showRule
       } 
