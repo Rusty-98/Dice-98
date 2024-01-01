@@ -6,7 +6,7 @@ const Home = ({ togglePlay }) => {
           <img src="../../dice.png" alt="Dice" />
         </div>
         <div className="h-3/5 pr-6 w-4/5 flex flex-col items-end justify-end p-5 gap-6">
-          <h1 className="text-white text-9xl">Dice Game</h1>
+          <h1 className="text-white text-9xl tracking-tighter">Dice Game</h1>
           <button
             onClick={togglePlay}
             className="bg-black rounded-lg p-2 w-44 h-14 flex items-center justify-center text-white text-2xl"
