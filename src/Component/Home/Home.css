@@ -1,0 +1,16 @@
+
+
+@media  screen and (max-width: 768px){
+    .main{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        height: 80%;
+        /* background-color: rebeccapurple; */
+        
+    }
+    .fon{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+}

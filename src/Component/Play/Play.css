@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+    .cont{
+        flex-direction: column;
+    }
+    .marks {
+        margin-bottom: 1px;
+        font-size: 9vh;
+    }
+    .selectNum {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .select{
+        font-size: 1px;
+        line-height: 2rem;
+        margin-right: 2px;
+    }
+}
