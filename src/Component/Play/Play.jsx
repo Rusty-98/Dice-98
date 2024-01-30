@@ -55,7 +55,10 @@ const Play = () => {
         setCurrDice(newValue)
         aud()
         if (newValue === select) {
-            setScore(score + 4)
+            setScore(score + newValue)
+        }
+        else{
+            setScore(score - 2)
         }
         setSelect()
     }
